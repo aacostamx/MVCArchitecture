@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Data", "4. Data", "{AB0AC8E6-7CAC-4ABC-8544-6E1BA0B7D953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Model", "3. Model", "{D23D9707-FCBE-422E-B728-D6FB56410D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service", "2. Service", "{7EC9C414-87E8-4367-923A-9A0DC8A4D419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Web", "1. Web", "{CA173D1A-D80F-47B7-AAE7-F76583AB3A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCArchitecture.Model", "MVCArchitecture.Model\MVCArchitecture.Model.csproj", "{04184681-2B73-4531-95F5-829D43C78C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCArchitecture.Data", "MVCArchitecture.Data\MVCArchitecture.Data.csproj", "{DB67799C-53E3-46E2-BD46-9B2B2D57E5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCArchitecture.Service", "MVCArchitecture.Service\MVCArchitecture.Service.csproj", "{93C4FEF3-6AA7-4193-9DAB-83C94E3406B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCArchitecture.Web", "MVCArchitecture.Web\MVCArchitecture.Web.csproj", "{B7F81079-FF9B-46B0-B80F-7181C6753916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04184681-2B73-4531-95F5-829D43C78C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04184681-2B73-4531-95F5-829D43C78C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04184681-2B73-4531-95F5-829D43C78C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04184681-2B73-4531-95F5-829D43C78C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB67799C-53E3-46E2-BD46-9B2B2D57E5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB67799C-53E3-46E2-BD46-9B2B2D57E5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB67799C-53E3-46E2-BD46-9B2B2D57E5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB67799C-53E3-46E2-BD46-9B2B2D57E5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C4FEF3-6AA7-4193-9DAB-83C94E3406B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C4FEF3-6AA7-4193-9DAB-83C94E3406B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C4FEF3-6AA7-4193-9DAB-83C94E3406B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C4FEF3-6AA7-4193-9DAB-83C94E3406B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F81079-FF9B-46B0-B80F-7181C6753916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F81079-FF9B-46B0-B80F-7181C6753916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F81079-FF9B-46B0-B80F-7181C6753916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F81079-FF9B-46B0-B80F-7181C6753916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04184681-2B73-4531-95F5-829D43C78C6A} = {D23D9707-FCBE-422E-B728-D6FB56410D73}
+		{DB67799C-53E3-46E2-BD46-9B2B2D57E5D9} = {AB0AC8E6-7CAC-4ABC-8544-6E1BA0B7D953}
+		{93C4FEF3-6AA7-4193-9DAB-83C94E3406B2} = {7EC9C414-87E8-4367-923A-9A0DC8A4D419}
+		{B7F81079-FF9B-46B0-B80F-7181C6753916} = {CA173D1A-D80F-47B7-AAE7-F76583AB3A70}
+	EndGlobalSection
+EndGlobal
